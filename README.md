@@ -1,4 +1,19 @@
-Docker: Utilização prática no cenário de Microsserviços
-Denilson Bonatti, Instrutor - Digital Innovation One
+# Projeto Toshiro Shibakita
 
-Muito se tem falado de containers e consequentemente do Docker no ambiente de desenvolvimento. Mas qual a real função de um container no cenários de microsserviços? Qual a real função e quais exemplos práticos podem ser aplicados no dia a dia? Essas são algumas das questões que serão abordadas de forma prática pelo Expert Instructor Denilson Bonatti nesta Live Coding. IMPORTANTE: Agora nossas Live Codings acontecerão no canal oficial da dio._ no YouTube. Então, já corre lá e ative o lembrete! Pré-requisitos: Conhecimentos básicos em Linux, Docker e AWS.
+Este projeto consiste em uma arquitetura de microsserviços, onde cada diretório representa um microsserviço independente. Cada microsserviço será instanciado em sua própria instância EC2 e todos serão integrados utilizando Docker Swarm.
+
+## Estrutura do Projeto
+
+- **Microsserviço 1**: Banco de dados Mysql.
+- **Microsserviço 2**: Servidor nginx com arquivo php.
+
+## Tecnologias Utilizadas
+
+- **Docker Swarm**: Para orquestração dos containers.
+- **Amazon EC2**: Para hospedagem dos microsserviços.
+
+## Como Executar
+
+1. Clone o repositório.
+2. Configure suas instâncias EC2.
+3. Utilize Docker Swarm para integrar os microsserviços.
